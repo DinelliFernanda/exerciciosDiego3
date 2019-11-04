@@ -10,7 +10,7 @@ Jogador.prototype.toString = function() {
 }
     
 Jogador.prototype.imc = function () {
-    var imc = this.peso / (this.altura * this.altura);
+    let imc = this.peso / (this.altura * this.altura);
     return imc;
 }
 
