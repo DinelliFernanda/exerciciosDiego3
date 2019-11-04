@@ -9,7 +9,9 @@ Jogador.prototype.toString = function() {
     return this.nome + ", " + this.idade + " , " + this.altura + " , " + this.peso;
 }
     
-function imc(){
-    var imc = peso / (altura * altura);
+Jogador.prototype.imc = function () {
+    var imc = this.peso / (this.altura * this.altura);
     return imc;
 }
+
+let mf = new Aluno('Maria Fernanda', 19, 1.52, 49)
