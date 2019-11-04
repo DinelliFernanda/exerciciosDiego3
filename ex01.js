@@ -14,4 +14,3 @@ Jogador.prototype.imc = function () {
     return imc;
 }
 
-let mf = new Aluno('Maria Fernanda', 19, 1.52, 49)
