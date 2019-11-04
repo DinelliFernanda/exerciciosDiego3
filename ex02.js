@@ -64,5 +64,3 @@ Aluno.prototype.calculaNotaFinal = function () {
         this.notafinal += this.notas[i]
     }
 }
-
-let mf = new Aluno(0, 'Maria Fernanda', 10.2, 15, 9, 11.6, 13.5)
